@@ -73,7 +73,7 @@ const NavBar = () => {
                   </li>
                   <li className="cursor-pointer bg-heading   hover:opacity-75">
                     <a
-                      href="https://discord.com/users/730699723606065243"
+                      href="https://discordapp.com/users/730699723606065243"
                       target="_blank"
                     >
                       <img src={discord} className="w-12 h-12 py-2"></img>

@@ -42,10 +42,10 @@ const Projects = () => {
             <p className="mt-2 mb-3.5 text-center text-sm md:text-base text-slate-400 mx-2 px-2">
               A web application utilizing the{" "}
               <span className="text-gradient">MERN</span> stack that implements
-              five main features. It includes creating database models and
-              performing queries with mongoose, developing RESTful APIs using
-              express, consuming APIs from react application, implementing
-              authentication with JWT and so on.
+              five features. It includes creating database models and performing
+              queries with mongoose, developing RESTful APIs using express,
+              consuming APIs from react application, implementing authentication
+              with JWT and so on.
             </p>
 
             <a
