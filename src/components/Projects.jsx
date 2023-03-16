@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../assets/endless-constellation.svg";
+
 import project1 from "../assets/project-1.gif";
 import project2 from "../assets/project-2.gif";
 import project3 from "../assets/project-3.gif";
