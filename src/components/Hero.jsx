@@ -1,5 +1,7 @@
 import React from "react";
 
+import hero from "../assets/hero.svg";
+
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
@@ -16,11 +18,7 @@ const Hero = () => (
       className="lg:flex-row flex flex-col md:pt-28 pt-20 mb-2 justify-center items-center md:mx-8 mx-4 relative"
     >
       <div className="lg:w-full md:w-[75%] w-full h-full p-5">
-        <img
-          src="./src/assets/man-developing-website-on-desk.svg"
-          className="z-10"
-          alt="man developing website"
-        />
+        <img src={hero} className="z-10" alt="man developing website" />
       </div>
       <div className="lg:w-full md:w-[75%] w-full h-full p-5">
         <div className="flex flex-col justify-center items-center lg:items-start">

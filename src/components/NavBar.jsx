@@ -1,4 +1,6 @@
 import { useState } from "react";
+
+import logo from "../assets/logo-navbar.svg";
 import close from "../assets/close.svg";
 import menu from "../assets/menu.svg";
 import github from "../assets/github.svg";
@@ -15,7 +17,7 @@ const NavBar = () => {
           <a href="#hero">
             <img
               className="w-[124px] h-[32px] ml-5 flex-1"
-              src="./src/assets/logo-navbar.svg"
+              src={logo}
               alt="imambiplob logo"
             />
           </a>
