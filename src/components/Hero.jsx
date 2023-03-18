@@ -31,9 +31,9 @@ const Hero = () => (
           </h3>
           <p className="mt-4 mx-10 md:mx-0 z-15 text-center text-lg sm:text-xl text-slate-400 lg:text-left">
             A passionate adventurer with diverse interests, especially in
-            Software Engineering and Artificial Intelligence. Having adequate
+            Artificial Intelligence and Software Engineering. Having an adequate
             amount of programming experience with Java, Python and JavaScript,
-            now I'm looking to explore further and expand my horizons.
+            I'm now looking to explore further and expand my horizons.
           </p>
           <p className="mt-2 mx-10 md:mx-0 z-15 text-center text-lg sm:text-xl text-slate-400 lg:text-left">
             Asking you to go through the whole page to get a gist of me.
