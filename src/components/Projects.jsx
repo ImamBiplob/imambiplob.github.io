@@ -39,7 +39,7 @@ const Projects = () => {
               'Digital Medical Support System for Hospital'
             </h3>
 
-            <p className="mt-2 mb-3.5 text-center text-sm md:text-base text-slate-400 mx-2 px-2">
+            <p className="mt-1.5 text-center text-sm md:text-base text-slate-400 mx-1.5 px-1.5">
               A web application utilizing the{" "}
               <span className="text-gradient">MERN</span> stack that implements
               five features (e.g., making appointments, calling an ambulance).
@@ -83,7 +83,7 @@ const Projects = () => {
               'Gaming Matters'
             </h3>
 
-            <p className="mt-2 mb-3.5 text-center text-sm md:text-base text-slate-400 mx-2 px-2">
+            <p className="mt-1.5 text-center text-sm md:text-base text-slate-400 mx-1.5 px-1.5">
               A simple <span className="text-gradient">Django</span> application
               with creating models for DB, mapping urls to view functions, using
               templates with bootstrap, modifying admin panel, building RESTful
@@ -124,7 +124,7 @@ const Projects = () => {
               'My Portfolio Website'
             </h3>
 
-            <p className="mt-2 mb-3.5 text-center text-sm md:text-base text-slate-400 mx-2 px-2">
+            <p className="mt-1.5 text-center text-sm md:text-base text-slate-400 mx-1.5 px-1.5">
               To build this website <span className="text-gradient">React</span>{" "}
               is used. Created react functional components, further extracted
               react components to remove repetitions and to make it cleaner,
