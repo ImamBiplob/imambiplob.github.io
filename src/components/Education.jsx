@@ -1,6 +1,9 @@
 import React from "react";
 import bracu from "../assets/bracu.svg";
 import ndc from "../assets/ndc.svg";
+import graduate from "../assets/graduate.jpg";
+import thesis from "../assets/thesis.jpg";
+import ImagePopup from "./ImagePopup";
 
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -37,8 +40,13 @@ const Education = () => {
                 <h3 className="pl-5 pr-2 sm:text-xl text-base text-slate-300 text-left pt-2 max-[430px]:text-sm">
                   B.Sc in Computer Science and Engineering
                 </h3>
+
                 <h4 className="pl-5 py-1 sm:text-lg text-sm text-emerald-500 text-left italic max-[430px]:text-xs">
-                  Graduated with Distinction
+                  <ImagePopup
+                    imagePath={graduate}
+                    text={"Graduated with High Distinction"}
+                    place={"#education"}
+                  />
                 </h4>
 
                 <h4 className="pl-5 sm:text-lg text-sm text-slate-500 text-left pb-2 max-[430px]:text-xs">
@@ -56,11 +64,20 @@ const Education = () => {
                 VLSI Design, Cryptography and Cryptanalysis.
               </h4>
               <h4 className="sm:text-lg py-2 text-sm text-slate-400 text-left max-[430px]:text-xs">
-                <span className="underline text-slate-300">Thesis:-</span> Risk
-                based Hybrid Security Model for enhancing eHealth services of
-                Cloud System.{" "}
+                <span className="underline text-slate-300">Thesis:-</span>{" "}
+                <span className="text-center">
+                  Risk based Hybrid Security Model for enhancing eHealth
+                  services of Cloud System.
+                </span>{" "}
                 <span className="text-slate-300">
                   (September 2021 - September 2022)
+                </span>
+                <span className="text-center">
+                  <ImagePopup
+                    imagePath={thesis}
+                    text={"★★★★★"}
+                    place="#educatiion"
+                  />
                 </span>
                 <ul className="list-disc mt-2 ml-10">
                   <li className="py-1">

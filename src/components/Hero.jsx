@@ -26,8 +26,18 @@ const Hero = () => (
             Hello, I'm <span className="text-gradient">IMAM</span>
           </h2>
           <h3 className="z-15 mt-1 text-center text-base sm:text-lg text-slate-500 lg:text-left italic">
-            Aspiring Software Engineer <span className="border-r mx-2"></span>{" "}
-            Fresh Graduate from CSE at BRACU
+            Software Engineer Intern (Backend) at{" "}
+            <span className="text-slate-400 hover:opacity-75">
+              <a href="https://squarehealth.com.bd" target="_blank">
+                Square Health Ltd.
+              </a>
+            </span>{" "}
+            <span className="border-r mx-2"></span> Recent Graduate from CSE at{" "}
+            <span className="text-slate-400 hover:opacity-75">
+              <a href="https://bracu.ac.bd" target="_blank">
+                BRAC University
+              </a>
+            </span>
           </h3>
           <p className="mt-4 mx-10 md:mx-0 z-15 text-center text-lg sm:text-xl text-slate-400 lg:text-left">
             A passionate adventurer with diverse interests, especially in

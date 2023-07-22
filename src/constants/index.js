@@ -3,6 +3,8 @@ import {
   js,
   python,
   sql,
+  spring,
+  springboot,
   nodejs,
   express,
   react,
@@ -13,10 +15,10 @@ import {
   html5,
   css3,
   bootstrap,
-  npm,
   docker,
   mysql,
   mongodb,
+  ml,
 } from "../assets";
 
 export const skills = [
@@ -43,73 +45,82 @@ export const skills = [
   },
   {
     id: 5,
+    icon: spring,
+    title: "Spring Framework",
+  },
+  {
+    id: 6,
+    icon: springboot,
+    title: "Spring Boot",
+  },
+  {
+    id: 7,
     icon: nodejs,
     title: "NodeJS",
   },
   {
-    id: 6,
+    id: 8,
     icon: express,
     title: "ExpressJS",
   },
   {
-    id: 7,
+    id: 9,
     icon: react,
     title: "ReactJS",
   },
   {
-    id: 8,
-    icon: npm,
-    title: "Node Package Manager",
-  },
-  {
-    id: 9,
+    id: 10,
     icon: django,
     title: "Django",
   },
   {
-    id: 10,
+    id: 11,
     icon: html5,
     title: "HTML5",
   },
   {
-    id: 11,
+    id: 12,
     icon: css3,
     title: "CSS3",
   },
   {
-    id: 12,
+    id: 13,
     icon: bootstrap,
     title: "Bootstrap",
   },
   {
-    id: 13,
+    id: 14,
     icon: tailwind,
     title: "TailwindCSS",
   },
   {
-    id: 14,
+    id: 15,
     icon: jwt,
     title: "JSON Web Token",
   },
   {
-    id: 15,
+    id: 16,
     icon: mysql,
     title: "MySQL",
   },
   {
-    id: 16,
+    id: 17,
     icon: mongodb,
     title: "MongoDB",
   },
-
   {
-    id: 17,
+    id: 18,
+    icon: ml,
+    title: "Machine Learning",
+  },
+  {
+    id: 19,
     icon: git,
     title: "Git",
   },
 
   {
-    id: 18,
+    id: 20,
     icon: docker,
     title: "Docker",
   },
