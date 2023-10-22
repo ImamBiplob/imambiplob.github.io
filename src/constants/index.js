@@ -19,6 +19,7 @@ import {
   mysql,
   mongodb,
   ml,
+  thymeleaf,
 } from "../assets";
 
 export const skills = [
@@ -55,72 +56,77 @@ export const skills = [
   },
   {
     id: 7,
+    icon: thymeleaf,
+    title: "Thymeleaf",
+  },
+  {
+    id: 8,
     icon: nodejs,
     title: "NodeJS",
   },
   {
-    id: 8,
+    id: 9,
     icon: express,
     title: "ExpressJS",
   },
   {
-    id: 9,
+    id: 10,
     icon: react,
     title: "ReactJS",
   },
   {
-    id: 10,
+    id: 11,
     icon: django,
     title: "Django",
   },
   {
-    id: 11,
+    id: 12,
     icon: html5,
     title: "HTML5",
   },
   {
-    id: 12,
+    id: 13,
     icon: css3,
     title: "CSS3",
   },
   {
-    id: 13,
+    id: 14,
     icon: bootstrap,
     title: "Bootstrap",
   },
   {
-    id: 14,
+    id: 15,
     icon: tailwind,
     title: "TailwindCSS",
   },
   {
-    id: 15,
+    id: 16,
     icon: jwt,
     title: "JSON Web Token",
   },
   {
-    id: 16,
+    id: 17,
     icon: mysql,
     title: "MySQL",
   },
   {
-    id: 17,
+    id: 18,
     icon: mongodb,
     title: "MongoDB",
   },
   {
-    id: 18,
+    id: 19,
     icon: ml,
     title: "Machine Learning",
   },
   {
-    id: 19,
+    id: 20,
     icon: git,
     title: "Git",
   },
 
   {
-    id: 20,
+    id: 21,
     icon: docker,
     title: "Docker",
   },
