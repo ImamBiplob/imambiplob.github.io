@@ -13,7 +13,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col justify-center items-center w-full h-full relative py-10 scroll-mt-8"
     >
-      <div className="absolute z-[0] w-[60%] h-[90%] -right-[50%] rounded-full blue__gradient bottom-48" />
+      <div className="absolute z-[0] w-[60%] h-[90%] -left-[50%] rounded-full blue__gradient bottom-48" />
 
       <h2 className="mt-4 z-15 text-center font-medium text-2xl 2xl:text-3xl text-gradient">
         Projects

@@ -38,7 +38,7 @@ const Education = () => {
 
               <div className="flex flex-col w-full">
                 <h3 className="pl-5 pr-2 sm:text-xl text-base text-slate-300 text-left pt-2 max-[430px]:text-sm">
-                  B.Sc in Computer Science and Engineering
+                  B.Sc. in Computer Science and Engineering
                 </h3>
 
                 <h4 className="pl-5 py-1 sm:text-lg text-sm text-emerald-500 text-left italic max-[430px]:text-xs">
@@ -70,7 +70,7 @@ const Education = () => {
                   services of Cloud System.
                 </span>{" "}
                 <span className="text-slate-300">
-                  (September 2021 - September 2022)
+                  (September, 2021 - September, 2022)
                 </span>
                 <span className="text-center">
                   <ImagePopup
