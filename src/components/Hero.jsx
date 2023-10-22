@@ -26,7 +26,7 @@ const Hero = () => (
             Hello, I'm <span className="text-gradient">IMAM</span>
           </h2>
           <h3 className="z-15 mt-1 text-center text-base sm:text-lg text-slate-500 lg:text-left italic">
-            Software Engineer Intern (Backend) at{" "}
+            Software Engineer Intern (Java) at{" "}
             <span className="text-slate-400 hover:opacity-75">
               <a href="https://squarehealth.com.bd" target="_blank">
                 Square Health Ltd.

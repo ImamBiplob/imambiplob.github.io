@@ -29,6 +29,9 @@ const NavBar = () => {
             <li className="cursor-pointer bg-heading font-medium mr-5 hover:opacity-75">
               <a href="#education">Education</a>
             </li>
+            <li className="cursor-pointer bg-heading font-medium mr-5 hover:opacity-75">
+              <a href="#experience">Experience</a>
+            </li>
             <li className="cursor-pointer bg-heading font-medium hover:opacity-75 ">
               <a href="#projects">Projects</a>
             </li>
@@ -53,6 +56,9 @@ const NavBar = () => {
                 </li>
                 <li className="cursor-pointer bg-heading text-[18px] mt-5 hover:opacity-75">
                   <a href="#education">Education</a>
+                </li>
+                <li className="cursor-pointer bg-heading text-[18px] mt-5 hover:opacity-75">
+                  <a href="#experience">Experience</a>
                 </li>
                 <li className="cursor-pointer bg-heading text-[18px] mt-5 hover:opacity-75 ">
                   <a href="#projects">Projects</a>

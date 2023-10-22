@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import SocialBar from "./components/SocialBar";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
@@ -14,6 +15,7 @@ const App = () => (
     <Hero />
     <Skills />
     <Education />
+    <Experience />
     <Projects />
     <Footer />
   </div>
