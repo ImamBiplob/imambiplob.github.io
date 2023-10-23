@@ -18,6 +18,7 @@ import docker from "./docker.svg";
 import mysql from "./mysql.svg";
 import mongodb from "./mongodb.svg";
 import ml from "./ml.svg";
+import thymeleaf from "./thymeleaf.svg";
 
 export {
   java,
@@ -40,4 +41,5 @@ export {
   mysql,
   mongodb,
   ml,
+  thymeleaf,
 };
