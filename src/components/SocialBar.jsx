@@ -11,21 +11,21 @@ const SocialBar = () => {
         <a href="mailto:imam.hossain@g.bracu.ac.bd">
           <img
             src={mail}
-            className="cursor-pointer w-12 h-12 py-2 hover:opacity-75"
+            className="cursor-pointer w-12 max-[340px]:w-10 h-12 py-2 hover:opacity-75"
           ></img>
         </a>
 
         <a href="https://github.com/ImamBiplob" target="_blank">
           <img
             src={github}
-            className="cursor-pointer w-12 h-12 py-2 hover:opacity-75"
+            className="cursor-pointer w-12 max-[340px]:w-10 h-12 py-2 hover:opacity-75"
           ></img>
         </a>
 
         <a href="https://linkedin.com/in/imambiplob" target="_blank">
           <img
             src={linkedin}
-            className="cursor-pointer w-12 h-12 py-2 hover:opacity-75"
+            className="cursor-pointer w-12 max-[340px]:w-10 h-12 py-2 hover:opacity-75"
           ></img>
         </a>
 
@@ -35,7 +35,7 @@ const SocialBar = () => {
         >
           <img
             src={discord}
-            className="cursor-pointer w-12 h-12 py-2 hover:opacity-75"
+            className="cursor-pointer w-12 max-[340px]:w-10 h-12 py-2 hover:opacity-75"
           ></img>
         </a>
       </div>

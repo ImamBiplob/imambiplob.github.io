@@ -24,7 +24,7 @@ const Projects = () => {
 
       <ul className="w-full lg:w-[80%] h-4/5 flex-wrap my-14 flex list-none justify-center items-center gap-24 sm:flex-row flex-col">
         <AnimationOnScroll
-          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
+          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[340px]:w-[67.5%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
           animateIn="animate__slideInLeft"
           animateOut="animate__slideOutLeft"
           initiallyVisible={false}
@@ -43,13 +43,14 @@ const Projects = () => {
             </h3>
 
             <p className="mt-1.5 text-center text-sm md:text-base text-slate-400 mx-1.5 px-1.5">
-              <span className="text-gradient">Spring Boot</span> application of
-              executing native SQL queries on MySQL database using JPA Entity
-              Manager and writing the result to a CSV file with Transaction
-              Management, Application Event Handling, Scheduling, File
-              Upload/Download, Email Service, Unit Testing, Integration Testing,
+              <span className="text-gradient">Spring Boot</span> application
+              that executes native SQL queries on a MySQL database using JPA
+              Entity Manager and writes the results to a CSV file while also
+              leveraging Transaction Management, Application Event Handling,
+              Scheduling, File Upload/Download, Email Service, Unit Testing,
+              Integration Testing,
               <span className="text-gradient"> Thymeleaf</span> Templates, and
-              more.
+              many more.
             </p>
 
             <a
@@ -81,7 +82,7 @@ const Projects = () => {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
+          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[340px]:w-[67.5%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
           animateIn="animate__zoomIn"
           animateOut="animate__zoomOut"
           initiallyVisible={false}
@@ -100,12 +101,13 @@ const Projects = () => {
             </h3>
 
             <p className="mt-1.5 text-center text-sm md:text-base text-slate-400 mx-1.5 px-1.5">
-              A healthcare billing system where multiple organization (e.g.,
-              Hospital, Diagnostic Center, Pharmacy) can easily manage their
-              billing process along with lots of features. My contribution was
-              in developing the backend part, which is built upon
+              A healthcare billing system that allows multiple organizations
+              (e.g., Hospitals, Diagnostic Centers, Pharmacies) to effortlessly
+              manage their billing process alongside providing numerous
+              features. My contribution was in developing this challenging
+              backend part, which is built upon
               <span className="text-gradient"> Spring Boot</span>, Spring Data
-              JPA, MySQL, Spring Security, JWT, etc.
+              JPA, MySQL, Spring Security, JWT, and other technologies.
             </p>
 
             <a
@@ -137,7 +139,7 @@ const Projects = () => {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
+          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[340px]:w-[67.5%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
           animateIn="animate__slideInRight"
           animateOut="animate__slideOutRight"
           initiallyVisible={false}
@@ -179,7 +181,7 @@ const Projects = () => {
           </li>
         </AnimationOnScroll>
         <AnimationOnScroll
-          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
+          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[340px]:w-[67.5%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
           animateIn="animate__slideInLeft"
           animateOut="animate__slideOutLeft"
           initiallyVisible={false}
@@ -223,7 +225,7 @@ const Projects = () => {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
+          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[340px]:w-[67.5%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
           animateIn="animate__zoomIn"
           animateOut="animate__zoomOut"
           initiallyVisible={false}
@@ -264,7 +266,7 @@ const Projects = () => {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
+          className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[340px]:w-[67.5%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"
           animateIn="animate__slideInRight"
           animateOut="animate__slideOutRight"
           initiallyVisible={false}
@@ -309,7 +311,7 @@ const Projects = () => {
       <a
         href="https://github.com/ImamBiplob?tab=repositories"
         target="_blank"
-        className="h-[35px] md:h-[40px] w-[160px] mb-3"
+        className="h-[40px] w-[160px] mb-3"
       >
         <button
           type="button"
