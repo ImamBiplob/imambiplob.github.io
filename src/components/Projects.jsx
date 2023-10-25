@@ -46,9 +46,9 @@ const Projects = () => {
               <span className="text-gradient">Spring Boot</span> application
               that executes native SQL queries on a MySQL database using JPA
               Entity Manager and writes the results to a CSV file while also
-              leveraging Transaction Management, Application Event Handling,
-              Scheduling, File Upload/Download, Email Service, Unit Testing,
-              Integration Testing,
+              leveraging Spring Security, JWT, Transaction Management,
+              Application Event Handling, Scheduling, File Upload/Download,
+              Email Service, Unit Testing, Integration Testing,
               <span className="text-gradient"> Thymeleaf</span> Templates, and
               many more.
             </p>
