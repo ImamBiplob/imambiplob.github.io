@@ -1,6 +1,7 @@
 import React from "react";
 import mail from "../assets/mail.svg";
 import github from "../assets/github.svg";
+import leetcode from "../assets/leetcode.svg";
 import linkedin from "../assets/linkedin.svg";
 import discord from "../assets/discord.svg";
 
@@ -15,6 +16,13 @@ const SocialBar = () => {
           ></img>
         </a>
 
+        <a href="https://linkedin.com/in/imambiplob" target="_blank">
+          <img
+            src={linkedin}
+            className="cursor-pointer w-12 max-[340px]:w-10 h-12 py-2 hover:opacity-75"
+          ></img>
+        </a>
+
         <a href="https://github.com/ImamBiplob" target="_blank">
           <img
             src={github}
@@ -22,9 +30,9 @@ const SocialBar = () => {
           ></img>
         </a>
 
-        <a href="https://linkedin.com/in/imambiplob" target="_blank">
+        <a href="https://leetcode.com/ImamBiplob/" target="_blank">
           <img
-            src={linkedin}
+            src={leetcode}
             className="cursor-pointer w-12 max-[340px]:w-10 h-12 py-2 hover:opacity-75"
           ></img>
         </a>

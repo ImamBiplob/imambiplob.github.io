@@ -22,6 +22,10 @@ const Projects = () => {
         Projects
       </h2>
 
+      <h3 className="mt-3 mx-14 text-center font-small text-xl 2xl:text-2xl text-slate-400">
+        Below are some of my works before getting into professional life
+      </h3>
+
       <ul className="w-full lg:w-[80%] h-4/5 flex-wrap my-14 flex list-none justify-center items-center gap-24 sm:flex-row flex-col">
         <AnimationOnScroll
           className="w-1/2 h-[575px] sm:w-1/3 max-w-[300px] max-[500px]:w-[65%] max-[340px]:w-[67.5%] max-[500px]:h-[500px] rounded-md shadow-lg bg-black-gradient z-10 drop-shadow-xl"

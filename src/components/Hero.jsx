@@ -18,7 +18,7 @@ const Hero = () => (
       className="lg:flex-row flex flex-col md:pt-28 pt-20 mb-2 justify-center items-center md:mx-8 mx-4 relative"
     >
       <div className="lg:w-full md:w-[75%] w-full h-full p-5">
-        <img src={hero} className="z-10" alt="man developing website" />
+        <img src={hero} className="z-10" alt="man doing programming" />
       </div>
       <div className="lg:w-full md:w-[75%] w-full h-full p-5">
         <div className="flex flex-col justify-center items-center lg:items-start">
@@ -26,7 +26,7 @@ const Hero = () => (
             Hello, I'm <span className="text-gradient">IMAM</span>
           </h2>
           <h3 className="z-15 mt-1 text-center text-base sm:text-lg text-slate-500 lg:text-left italic">
-            Software Engineer Intern (Java) at{" "}
+            Junior Software Engineer at{" "}
             <span className="text-slate-400 hover:opacity-75">
               <a href="https://squarehealth.com.bd" target="_blank">
                 Square Health Ltd.
