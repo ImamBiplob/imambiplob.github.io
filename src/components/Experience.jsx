@@ -64,14 +64,14 @@ const Experience = () => {
             <div className="flex flex-col p-3 mx-2 justify-center items-start">
               <h4 className="sm:text-lg text-sm text-slate-300 text-left max-[430px]:text-xs">
                 <div className="flex">
-                  <span className="underline">Flagship Project:- </span>
+                  <span className="underline mr-2">Flagship Project:-</span>
                   <a
                     className="hover:opacity-75 flex"
                     href="https://www.jotno.net"
                     target="_blank"
                   >
                     <img
-                      className="rounded-md sm:w-8 sm:h-8 w-6 h-6 mx-2"
+                      className="rounded-md sm:w-8 sm:h-8 w-6 h-6 mr-2"
                       src={jotno}
                       alt="jotno logo"
                     />
