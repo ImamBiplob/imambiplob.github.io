@@ -49,7 +49,7 @@ const Experience = () => {
                 </h4>
 
                 <h4 className="pl-5 sm:text-lg text-sm text-slate-500 text-left pb-2 max-[430px]:text-xs">
-                  (March, 2023 - Present)
+                  (March, 2024 - Present)
                 </h4>
               </div>
             </div>

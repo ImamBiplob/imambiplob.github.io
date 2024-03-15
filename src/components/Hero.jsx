@@ -49,7 +49,7 @@ const Hero = () => (
             Asking you to go through the whole page to get a gist of me.
           </p>
           <a
-            href="mailto:imam.hossain@g.bracu.ac.bd"
+            href="mailto:biplob@squarehealth.com.bd"
             className="md:w-[25%] h-[40px] w-[40%] mt-8"
           >
             <button
